@@ -1,0 +1,9 @@
+LAMMPS (8 Apr 2021)
+# Diffusion - Migration - Potential - Nucleation - Reaction Modeling
+# Cycling
+# nucleation equation implementation with nucleation rate
+# 6/8/23
+# Madison Morey
+
+log 		${dname}/log.lammps
+log 		/projectnb/ryanlab/mmorey/LAMMPS_BATTERY_SEI/Case0/newresults/SEI_02Mar2025_24_5e-4_1e-5_2933505/log.lammps
