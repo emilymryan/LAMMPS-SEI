@@ -1,0 +1,9 @@
+LAMMPS (8 Apr 2021)
+# Diffusion - Migration - Potential - Reaction Modeling - Butler Volmer
+# Cycling
+# 10/29/21
+# Madison Morey
+
+
+log 		${dname}/log.lammps
+log 		/projectnb/ryanlab/mmorey/LAMMPS_BATTERY_SEI/Case1/newresults/reactionrate/SEI_Case1_27Feb25_20nm_RCLo_2884453/log.lammps
