@@ -1,0 +1,23 @@
+#! /bin/bash -l
+#$ -l h_rt=48:00:00
+#$ -P ryanlab
+#$ -m bea
+#$ -j y
+#$ -N SEI_C2
+#$ -o /projectnb/ryanlab/mmorey/LAMMPS_BATTERY_SEI/Case2/results/final/$JOB_NAME.o$JOB_ID
+#$ -e /projectnb/ryanlab/mmorey/LAMMPS_BATTERY_SEI/Case2/results/final/$JOB_NAME.e$JOB_ID
+#$ -pe mpi_16_tasks_per_node 32
+module load openmpi/3.1.1
+module load python3/3.6.5
+
+lmp=/projectnb/ryanlab/mmorey/mylammps/src/lmp_mpi
+
+dname1=SEI_Case2_20Feb2025_LiF_${JOB_ID}
+output=/projectnb/ryanlab/mmorey/LAMMPS_BATTERY_SEI/Case2/newresults/${dname1}
+dname=${output}
+mkdir -p ${dname}
+
+mpirun -np $NSLOTS ${lmp} -in input.lmp -var dname ${dname}
+
+exit
+

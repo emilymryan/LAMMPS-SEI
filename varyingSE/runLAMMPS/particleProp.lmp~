@@ -1,0 +1,368 @@
+# Properties for all
+set		atom * sph/rho ${sph_rho}
+set	        atom * mass ${sph_mass}
+
+
+# Properties for Liquid1 particles
+
+set             group liquid1 d_cA ${sph_cA_init}
+set             group liquid1 d_dcA 0.0
+
+set             group liquid1 d_cC ${sph_cA_init}
+set             group liquid1 d_dcC 0.0
+
+set             group liquid1 d_mM 0.0
+set             group liquid1 d_dmM 0.0
+
+set             group liquid1 d_rR ${sph_rad_init}
+set             group liquid1 d_drR 0.0
+
+set             group liquid1 d_nN 0.0
+set             group liquid1 d_dnN 0.0
+
+set             group liquid1 d_local_pot 0.0
+
+set		group liquid1 d_DA ${sph_DA} # x dir anion diffusion coefficient
+set		group liquid1 d_DC ${sph_DC} # y dir cation diffusion coefficient
+
+set		group liquid1 d_muA ${sph_muA} # anion mobility
+set		group liquid1 d_muC ${sph_muC} # cation mobility
+
+set		group liquid1 d_RC ${sph_RC1}  # reaction rate
+
+set             group liquid1 d_surf_energy ${sph_surf_energy1} #surface energy
+
+set		group liquid1 d_nx 0.0
+set		group liquid1 d_ny 0.0
+set		group liquid1 d_nz 0.0
+
+# Properties for Liquid2 particles
+
+set             group liquid2 d_cA ${sph_cA_init}
+set             group liquid2 d_dcA 0.0
+
+set             group liquid2 d_cC ${sph_cA_init}
+set             group liquid2 d_dcC 0.0
+
+set             group liquid2 d_mM 0.0
+set             group liquid2 d_dmM 0.0
+
+set             group liquid2 d_rR ${sph_rad_init2}
+set             group liquid2 d_drR 0.0
+
+set             group liquid2 d_nN 0.0
+set             group liquid2 d_dnN 0.0
+
+set             group liquid2 d_local_pot 0.0
+
+set             group liquid2 d_DA ${sph_DA} # x dir anion diffusion coefficient
+set             group liquid2 d_DC ${sph_DC} # y dir cation diffusion coefficient
+
+set             group liquid2 d_muA ${sph_muA} # anion mobility
+set             group liquid2 d_muC ${sph_muC} # cation mobility
+
+set             group liquid2 d_RC ${sph_RC1}  # reaction rate
+
+set             group liquid2 d_surf_energy ${sph_surf_energy2} #surface energy
+
+set             group liquid2 d_nx 0.0
+set             group liquid2 d_ny 0.0
+set             group liquid2 d_nz 0.0
+
+# Properties for Liquid3 particles
+
+set             group liquid3 d_cA ${sph_cA_init}
+set             group liquid3 d_dcA 0.0
+
+set             group liquid3 d_cC ${sph_cA_init}
+set             group liquid3 d_dcC 0.0
+
+set             group liquid3 d_mM 0.0
+set             group liquid3 d_dmM 0.0
+
+set             group liquid3 d_rR ${sph_rad_init3}
+set             group liquid3 d_drR 0.0
+
+set             group liquid3 d_nN 0.0
+set             group liquid3 d_dnN 0.0
+
+set             group liquid3 d_local_pot 0.0
+
+set             group liquid3 d_DA ${sph_DA} # x dir anion diffusion coefficient
+set             group liquid3 d_DC ${sph_DC} # y dir cation diffusion coefficient
+
+set             group liquid3 d_muA ${sph_muA} # anion mobility
+set             group liquid3 d_muC ${sph_muC} # cation mobility
+
+set             group liquid3 d_RC ${sph_RC1}  # reaction rate
+
+set             group liquid3 d_surf_energy ${sph_surf_energy3} #surface energy
+
+set             group liquid3 d_nx 0.0
+set             group liquid3 d_ny 0.0
+set             group liquid3 d_nz 0.0
+
+# Properties for Liquid4 particles
+
+set             group liquid4 d_cA ${sph_cA_init}
+set             group liquid4 d_dcA 0.0
+
+set             group liquid4 d_cC ${sph_cA_init}
+set             group liquid4 d_dcC 0.0
+
+set             group liquid4 d_mM 0.0
+set             group liquid4 d_dmM 0.0
+
+set             group liquid4 d_rR ${sph_rad_init2}
+set             group liquid4 d_drR 0.0
+
+set             group liquid4 d_nN 0.0
+set             group liquid4 d_dnN 0.0
+
+set             group liquid4 d_local_pot 0.0
+
+set             group liquid4 d_DA ${sph_DA} # x dir anion diffusion coefficient
+set             group liquid4 d_DC ${sph_DC} # y dir cation diffusion coefficient
+
+set             group liquid4 d_muA ${sph_muA} # anion mobility
+set             group liquid4 d_muC ${sph_muC} # cation mobility
+
+set             group liquid4 d_RC ${sph_RC1}  # reaction rate
+
+set             group liquid4 d_surf_energy ${sph_surf_energy4} #surface energy
+
+set             group liquid4 d_nx 0.0
+set             group liquid4 d_ny 0.0
+set             group liquid4 d_nz 0.0
+
+# Properties for Liquid5 particles
+
+set             group liquid5 d_cA ${sph_cA_init}
+set             group liquid5 d_dcA 0.0
+
+set             group liquid5 d_cC ${sph_cA_init}
+set             group liquid5 d_dcC 0.0
+
+set             group liquid5 d_mM 0.0
+set             group liquid5 d_dmM 0.0
+
+set             group liquid5 d_rR ${sph_rad_init3}
+set             group liquid5 d_drR 0.0
+
+set             group liquid5 d_nN 0.0
+set             group liquid5 d_dnN 0.0
+
+set             group liquid5 d_local_pot 0.0
+
+set             group liquid5 d_DA ${sph_DA} # x dir anion diffusion coefficient
+set             group liquid5 d_DC ${sph_DC} # y dir cation diffusion coefficient
+
+set             group liquid5 d_muA ${sph_muA} # anion mobility
+set             group liquid5 d_muC ${sph_muC} # cation mobility
+
+set             group liquid5 d_RC ${sph_RC1}  # reaction rate
+
+set             group liquid5 d_surf_energy ${sph_surf_energy5} #surface energy
+
+set             group liquid5 d_nx 0.0
+set             group liquid5 d_ny 0.0
+set             group liquid5 d_nz 0.0
+
+# Properties for boundary conditions
+
+set 		group constconc d_cC ${sph_const_cC}
+set 		group constconc d_dcC 0.0
+
+set 		group constconc d_cA ${sph_const_cA}
+set 		group constconc d_dcA 0.0
+
+set             group constconc d_mM 0.0
+set             group constconc d_dmM 0.0
+
+set             group constconc d_rR ${sph_rad_init2}
+set             group constconc d_drR 0.0
+
+set             group constconc d_nN 0.0
+set             group constconc d_dnN 0.0
+
+set		group constconc d_DA ${sph_DA} # x dir anion diffusion coefficient
+set		group constconc d_DC ${sph_DC} # x dir cation diffusion coefficient
+
+set		group constconc d_muA ${sph_muA} # anion mobility
+set		group constconc d_muC ${sph_muC} # cation mobility
+
+set             group constconc d_local_pot 0.0
+
+set		group constconc d_RC  0.0  # reaction rate
+
+set             group constconc d_surf_energy ${sph_surf_energy2}  # surface energy
+
+set		group constconc d_nx 0.0
+set		group constconc d_ny 0.0
+set		group constconc d_nz 0.0
+
+
+# Set solid1 particle properties
+
+set             group solid1 d_cC 0.0
+set             group solid1 d_dcC 0.0
+
+set             group solid1 d_cA 0.0
+set             group solid1 d_dcA 0.0
+
+set             group solid1 d_mM ${sph_mass_init1}
+set             group solid1 d_dmM 0.0
+
+set             group solid1 d_rR ${sph_rad_init}
+set             group solid1 d_drR 0.0
+
+set            	group solid1 d_nN 0.0
+set             group solid1 d_dnN 0.0
+
+set             group solid1 d_DA ${sph_DA} # x dir anion diffusion coefficient
+set             group solid1 d_DC ${sph_DC} # x dir cation diffusion coefficient
+
+set             group solid1 d_muA 0.0 # anion mobility
+set             group solid1 d_muC 0.0 # cation mobility
+
+set             group solid1 d_local_pot 0.0
+
+set             group solid1 d_RC  ${sph_RC1}  # reaction rate
+
+set             group solid1 d_surf_energy ${sph_surf_energy1} # surface energy
+
+set             group solid1 d_nx 0.0
+set             group solid1 d_ny 0.0
+set             group solid1 d_nz 0.0
+
+# Set solid2 particle properties
+
+set             group solid2 d_cC 0.0
+set             group solid2 d_dcC 0.0
+
+set             group solid2 d_cA 0.0
+set             group solid2 d_dcA 0.0
+
+set             group solid2 d_mM ${sph_mass_init1}
+set             group solid2 d_dmM 0.0
+
+set             group solid2 d_rR ${sph_rad_init2}
+set             group solid2 d_drR 0.0
+
+set             group solid2 d_nN 0.0
+set             group solid2 d_dnN 0.0
+
+set             group solid2 d_DA ${sph_DA} # x dir anion diffusion coefficient
+set             group solid2 d_DC ${sph_DC} # x dir cation diffusion coefficient
+
+set             group solid2 d_muA 0.0 # anion mobility
+set             group solid2 d_muC 0.0 # cation mobility
+
+set             group solid2 d_local_pot 0.0
+
+set             group solid2 d_RC  ${sph_RC1}  # reaction rate
+
+set             group solid2 d_surf_energy ${sph_surf_energy2} # surface energy
+
+set             group solid2 d_nx 0.0
+set             group solid2 d_ny 0.0
+set             group solid2 d_nz 0.0
+
+# Set solid3 particle properties
+
+set             group solid3 d_cC 0.0
+set             group solid3 d_dcC 0.0
+
+set             group solid3 d_cA 0.0
+set             group solid3 d_dcA 0.0
+
+set             group solid3 d_mM ${sph_mass_init1}
+set             group solid3 d_dmM 0.0
+
+set             group solid3 d_rR ${sph_rad_init}
+set             group solid3 d_drR 0.0
+
+set             group solid3 d_nN 0.0
+set             group solid3 d_dnN 0.0
+
+set             group solid3 d_DA ${sph_DA} # x dir anion diffusion coefficient
+set             group solid3 d_DC ${sph_DC} # x dir cation diffusion coefficient
+
+set             group solid3 d_muA 0.0 # anion mobility
+set             group solid3 d_muC 0.0 # cation mobility
+
+set             group solid3 d_local_pot 0.0
+
+set             group solid3 d_RC  ${sph_RC1}  # reaction rate
+
+set             group solid3 d_surf_energy ${sph_surf_energy3} # surface energy
+
+set             group solid3 d_nx 0.0
+set             group solid3 d_ny 0.0
+set             group solid3 d_nz 0.0
+
+# Set solid4 particle properties
+
+set             group solid4 d_cC 0.0
+set             group solid4 d_dcC 0.0
+
+set             group solid4 d_cA 0.0
+set             group solid4 d_dcA 0.0
+
+set             group solid4 d_mM ${sph_mass_init1}
+set             group solid4 d_dmM 0.0
+
+set             group solid4 d_rR ${sph_rad_init2}
+set             group solid4 d_drR 0.0
+
+set             group solid4 d_nN 0.0
+set             group solid4 d_dnN 0.0
+
+set             group solid4 d_DA ${sph_DA} # x dir anion diffusion coefficient
+set             group solid4 d_DC ${sph_DC} # x dir cation diffusion coefficient
+
+set             group solid4 d_muA 0.0 # anion mobility
+set             group solid4 d_muC 0.0 # cation mobility
+
+set             group solid4 d_local_pot 0.0
+
+set             group solid4 d_RC  ${sph_RC1}  # reaction rate
+
+set             group solid4 d_surf_energy ${sph_surf_energy4} # surface energy
+
+set             group solid4 d_nx 0.0
+set             group solid4 d_ny 0.0
+set             group solid4 d_nz 0.0
+
+# Set solid5 particle properties
+
+set             group solid5 d_cC 0.0
+set             group solid5 d_dcC 0.0
+
+set             group solid5 d_cA 0.0
+set             group solid5 d_dcA 0.0
+
+set             group solid5 d_mM ${sph_mass_init1}
+set             group solid5 d_dmM 0.0
+
+set             group solid5 d_rR ${sph_rad_init}
+set             group solid5 d_drR 0.0
+
+set             group solid5 d_nN 0.0
+set             group solid5 d_dnN 0.0
+
+set             group solid5 d_DA ${sph_DA} # x dir anion diffusion coefficient
+set             group solid5 d_DC ${sph_DC} # x dir cation diffusion coefficient
+
+set             group solid5 d_muA 0.0 # anion mobility
+set             group solid5 d_muC 0.0 # cation mobility
+
+set             group solid5 d_local_pot 0.0
+
+set             group solid5 d_RC  ${sph_RC1}  # reaction rate
+
+set             group solid5 d_surf_energy ${sph_surf_energy5} # surface energy
+
+set             group solid5 d_nx 0.0
+set             group solid5 d_ny 0.0
+set             group solid5 d_nz 0.0
